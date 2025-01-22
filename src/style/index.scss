@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  margin: 1rem;
+  min-height: 100dvh;
+  display: grid;
+  place-items: center;
+  background: hsl(27, 66%, 92%);
+  main {
+    width: min(90dvw, 600px);
+
+    article {
+      background: hsl(33, 100%, 98%);
+      margin-top: 1.5rem;
+      border-radius: 0.75rem;
+      padding: 1rem;
+    }
+  }
+}
